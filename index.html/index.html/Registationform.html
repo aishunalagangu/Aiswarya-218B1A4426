@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Registration page</title>
+    <link rel="stylesheet" href="Mystyles.CSS">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Home.html"> Home </a></li>
+            <li><a href="About.html"> About </a></li>
+            <li><a href="Contactus.html"> Contact Us </a></li>
+            <li><a href="Registationform.html"> Sign up</a></li>
+            <li><a href="Exp11-Loginpage.html"> Login </a></li>
+            
+        </ul>
+    </nav>
+    </nav>
+      <center><h1>NAR Dance Acadamy</h1></center>
+      <center>
+    <h2>Dance Acadamy Registation Form</h2>
+    <form action="Regi.html" method="post">
+        <label>Name:</label> <input type="text" name="uname"placeholder="Enter your Name"><br><br>
+        <label>Age:</label><input type="number" name="age" placeholder="Enter age " required min="18" max="50"><br><br>
+         <label>Enter Mobile Number :</label><input type="tel" name="personal" id="per1" pattern="[0-9]{10}" title="The Ten digits number"><br><br>
+       <label>Date of Birth:</label> <input type="date" name="bname"><br><br>
+        <label>Email id:</label> <input list="email" name="office" id="myofficeid"><br>
+<br>
+          <label>Address:</label><br>
+       <textarea name="address" cols="25" rows="3">Enter your Address here!</textarea>
+        <datalist id="email">
+        </datalist><br><br>
+       <label>Gender:</label>
+        <input type="radio" name="gender" value="M">Male<br>
+        <input type="radio" name="gender" value="F">Female<br><br>
+        <label>Choose your Favourite Dance:</label><br>
+            <input type="radio" name="lang[]" value="Salsa">Salsa<br>
+        <input type="radio" name="lang[]" value="Pole dance">Pole Dance<br>
+        <input type="radio" name="lang[]" value="Hip-Hop">Hip-Hop<br>
+        <input type="radio" name="lang[]" value="Modern">Modern<br>
+        <input type="radio" name="lang[]" value="Western">Western<br>
+        <input type="radio" name="lang[]" value="Swing">Swing<br>
+        <input type="radio" name="lang[]" value="Garba">Garba<br>
+        </select><br><br>
+        <label>Start Day:</label><input type="date"><br><br>
+        <label>Select time:</label><input type="time">
+           <br><br>
+           <br>
+    </form><br><br>
+            <input type="submit" value="Submit"><br><br>
+            </center>
+    <footer>
+        <p>$copy; 2024 My company. All Rights are Reserved.</p>
+    </footer>
+</body>
+</html>

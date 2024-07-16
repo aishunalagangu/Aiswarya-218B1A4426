@@ -1,0 +1,44 @@
+nav{
+    background-color: rgb(148, 140, 26);
+    color: rgb(57, 9, 187);
+    padding: 10px;
+}
+nav{
+    background-color: #380792;
+    color:white;
+    padding:10px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body  {
+    background: url("download\ \(1\).jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #457fa100;
+    padding: 50px;
+  }
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: rgb(10, 8, 8);
+    
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section{
+    padding: 20px;
+}
+footer{
+        background-color: #2f0442;
+        color:#fff;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 75vh;
+}
